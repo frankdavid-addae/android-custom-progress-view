@@ -7,7 +7,12 @@
     tools:context=".MainActivity">
 
     <com.example.customprogressview.ProgressView
+        android:id="@+id/progressView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        app:progressBaseColor="@color/teal_200"
+        app:insideColor="@android:color/darker_gray"
+        app:progressColor="@color/purple_700"
+        app:progressAndText="75"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
